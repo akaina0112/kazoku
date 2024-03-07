@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*========= モーダル表示のためのCSS ===============*/
+
+/*全て共通：hideエリアをはじめは非表示*/
+.hide-area{
+  display: none;
+}
+
+/*全て共通：モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+  background:#ccc;  
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+  background:#666;
+}
+
+/*確認を促すモーダル：タイトルの色を変更したい場合*/
+#modaal-title{
+  font-size:1.2rem;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+/*動画表示のモーダル：余白を変更したい場合*/
+.modaal-video .modaal-inner-wrapper{
+  padding:0;
+}
+
+/*以下はコンテンツ内のレイアウト*/
+.info-list dl,
+.gallery-list{
+  display: flex;
+}
+
+.info-list dt{
+  margin:0 10px 0 0;
+}
+
+.gallery-list li{
+  margin:0 10px 0 0;
+}
+
+
+.list-4 {
+    border: 2px solid #2589d0;
+}
+
+.list-4 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #2589d0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.list-4 ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 1em 1em 1em 2.5em;
+}
+
+.list-4 li {
+    padding: .3em .3em .3em 0;
+}
+
+.list-4 li::marker {
+    color: #2589d0;
+    font-size: 1.1em;
+}

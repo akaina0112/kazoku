@@ -1,0 +1,61 @@
+
+@font-face {
+  font-family: "あんずもじ";
+  src: url("../fonts/AP.ttf") format("truetype");
+　font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "無心";
+  src: url("../fonts/mushin.otf") format("opentype");
+　font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "すがら";
+  src: url("../fonts/uzura.ttf") format("truetype");
+　font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "夜すがら";
+  src: url("../fonts/yosugaraver1_2.ttf") format("truetype");
+　font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "まんまる";
+  src: url("../fonts/fluffy-Gothic.ttf") format("truetype");
+　font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "まんまるハート";
+  src: url("../fonts/marshmallowpopheart.otf") format("opentype");
+　font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Pomeranian";
+  src: url("../fonts/Pomeranian-Regular.ttf") format("truetype");
+　font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ゲーム";
+  src: url("../fonts/GN-KillGothic-U-KanaNA.ttf") format("truetype");
+  src: url("../fonts/GN-KillGothic-U-KanaNB.ttf") format("truetype");
+  src: url("../fonts/GN-KillGothic-U-KanaO.ttf") format("truetype");
+　font-weight: bold;
+  font-style: normal;
+}
