@@ -4,10 +4,10 @@
 $(function(){
 // 調整用 ここから
 	var back_top_speed = 500; // トップへ戻るスピード（back-top.png をクリックしたとき）
-	var nav_speed = 200; // スマートフォンメニューの表示スピード
-	var nav_scroll_speed = 200; // メニュースクロールスピード
-	var menu_hover = 200; // リンク hover アクションのスピード	
-	var min_width = 400; // ブレークポイント[800]
+	var nav_speed = 300; // スマートフォンメニューの表示スピード
+	var nav_scroll_speed = 300; // メニュースクロールスピード
+	var menu_hover = 300; // リンク hover アクションのスピード	
+	var min_width = 800; // ブレークポイント[800]
 // 調整用 ここまで
 
 	var menu_button = $('#menu_button');
