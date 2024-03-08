@@ -118,7 +118,7 @@ header {
 	margin-top: -1000px; /* リロード時のメニュー表示を防ぐ */
 	width: 100%;
 	z-index: 3;
-	background-image: url(images/background.png); /* 背景画像 */
+	background-image: url(../images/background.png); /* 背景画像 */
 }
 #main_menu > nav > ul {
 	padding-left: 0px;
