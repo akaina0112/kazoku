@@ -1,6 +1,3 @@
-// Copyright(C)2016 Cafi Net All Rights Reserved.[140]
-// 利用規約 http://japanism.info/free-template.html#template
-
 $(function(){
 // 調整用 ここから
 	var back_top_speed = 500; // トップへ戻るスピード（back-top.png をクリックしたとき）
