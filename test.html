@@ -18,7 +18,8 @@
         <!-- ボタンクリック後の処理 -->
         <script language="javascript" type="text/javascript">
             function clickMessageDisp() {
-                var message = document.getElementById("input-message").value;
+             //  var message = document.getElementById("input-message").value;
+　　　　　　    var message = document.getElementById('wrap2');
                 message = '<video src="${message}"　controls></video>'
                 document.getElementById("output-message").innerHTML = message;
             }
@@ -28,8 +29,8 @@
 <script>
     var div = document.getElementById('wrap');
     
-    //新規にp要素を出力
-    div.innerHTML = '<p>こんにちは</p>';
+    //新規にp要素を出力　　https://youtu.be/_KNMh2b3UYM?si=sHUQpP97qgrB5s-y
+    div.innerHTML = '<video src="https://youtu.be/_KNMh2b3UYM?si=sHUQpP97qgrB5s-y"　controls></video>';
  </script>
     </body>
 </html>
