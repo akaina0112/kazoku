@@ -14,21 +14,25 @@
         <!-- ボタンクリック後の処理 -->
         <script language="javascript" type="text/javascript">
             function clickMessageDisp() {
-                var message = document.getElementById("input-message").value;
+                var div2 = document.getElementById('wrap2');
+          //      var message = document.getElementById("input-message").value;
                 message = "入力したメッセージ：" + message;
-                document.getElementById("output-message").innerHTML = message;
+                document.getElementById("output-message").innerHTML = message; 
+               div2.innerHTML = '<iframe width="560" height="315" src="${message}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+
+                
             }
+            
+     
             
         </script>
         <div id="wrap"></div>
         <div id="wrap2"></div>
 <script>
     var div = document.getElementById('wrap');
-    var div2 = document.getElementById('wrap2');
     
     //新規にp要素を出力
     div.innerHTML = '<p>こんにちは</p>';
-    div2.innerHTML = '<form id="form1" action="#"><input type="text" id="input-message"><input type="submit" onclick="clickMessageDisp()" value="メッセージを表示"><br><label id="output-message"></label></form>';
-</script>
+ </script>
     </body>
 </html>
