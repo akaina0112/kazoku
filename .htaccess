@@ -1,2 +1,1 @@
-ErrorDocument 403 /test.html
 ErrorDocument 404 /404.html
