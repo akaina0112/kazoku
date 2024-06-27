@@ -1,11 +1,11 @@
 document.oncontextmenu = function(){ return false; };
 document.body.oncontextmenu = "return false;"
-/*
-async function makeKey(){
-	let secret_key = await crypto.subtle.generateKey({name:'AES-GCM', length:256}, true, ['encrypt','decrypt'])
-	let export_secret_key = await crypto.subtle.exportKey('jwk', secret_key)
-	//console.log(export_secret_key)
-	return export_secret_key
-}
-makeKey()
-*/
+// 例としてakaina変数に値を設定
+let akaina = 'This shortcut has been disabled.';
+
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key === 'u') {
+        event.preventDefault();
+        alert('このショートカットは無効化されています。\n' + akaina);
+    }
+});
