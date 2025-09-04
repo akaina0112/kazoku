@@ -80,7 +80,7 @@
     visibility: visible;
     transform: translate(-50%, -50%) scale(1) rotateY(0deg);
 }
-
+/*
 #modal p {
     color: #fff;
     line-height: 1.7;
@@ -89,7 +89,7 @@
     text-align: center;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
+*/
 #modal .close-btn {
     padding: 12px 24px;
     background: rgba(255, 255, 255, 0.2);
