@@ -13,17 +13,9 @@
 <link rel="stylesheet" href="../css/road.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
-
-  <!-- jQuery + Modaal -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
-
   <!-- 自作スクリプト -->
   <script src="../js/script_2.js" defer></script>
   <script src="../js/script.js" defer></script>
-  <script src="../js/script_3.js" defer></script>
   <script src="../js/road.js" defer></script>
   <script src="../js/no.js" defer></script>
 
@@ -73,9 +65,13 @@
 
 <div class="block">
 <div class="content">
-<a href="#taku" class="info"><img src="../images/mori.png" alt="ネット家族" width="100%"></a>
-    <section id="taku" class="hide-area">
-    <mori>
+  <div class="container">
+　　　<a id="modal-btn" class="info"><img src="../images/mori.png" alt="ネット家族" width="100%"></a>
+</div>
+
+<div id="mask" class="mask"></div>
+<div id="modal" class="modal">
+    <div class="modal-content">
     <h2>妹(もり)！！</h2>
     <p>もりとは2024年に出会いました。</p>
     <p>詳しい日付:2024/02/17</p>
@@ -87,8 +83,11 @@
     <p>実は、、妹たく兄と私のリスナーですwww</p>
     <p>そして可愛い！！仕草とか声とか可愛い！！</p>
     <p>ネット家族のアイドル(?)です。</p>
-    </mori>
-    </section>
+        <div class="close-btn-container">
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+</div
 
 </div>
 </div>
@@ -111,6 +110,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
 <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-6-3/js/9-6-3.js"></script></body>
 </html>
+
 
 
 
