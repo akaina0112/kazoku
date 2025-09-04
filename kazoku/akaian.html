@@ -6,8 +6,8 @@
 <title>ネット家族サイト</title>
 <meta name="description" content="ネット家族の紹介サイト:ライフガード">
 
-<link rel="stylesheet" type="text/css" href="../css/style.css">
 <link rel="stylesheet" type="text/css" href="../css/color.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <link rel="stylesheet" type="text/css" href="../css/fonnto.css">
 <link rel="stylesheet" type="text/css" href="../css/test.css">
 <link rel="stylesheet" href="../css/road.css">
@@ -16,7 +16,6 @@
 
 <script src="../js/script_2.js" defer></script> 
 <script src="../js/script.js" defer></script>   
-<script src="../js/script_3.js" defer></script>
 <script src="../js/road.js" defer></script>
 <script src="../js/no.js" defer></script>
 
@@ -67,10 +66,14 @@
 
 <div class="block">
 <div class="content">
-<a href="#taku" class="info"><img src="../images/akaina.png" alt="ネット家族" width="100%"></a>
-    <section id="taku" class="hide-area">
-    <taku>
-    <h2>クズ</h2>
+  <div class="container">
+    <a id="modal-btn" class="info"><img src="../images/akaina.png" alt="ネット家族" width="100%"></a>
+</div>
+
+<div id="mask" class="mask"></div>
+<div id="modal" class="modal">
+    <div class="modal-content">
+　　<h2>クズ</h2>
     <p>たく兄ともりを勝手に家族にしたクズ</p>
     <p>私は周りからはクズ、ガキ、アホ、人間じゃない、死ね</p>
     <p>数年死ねといわれて本当に死のうとした。</p>
@@ -80,9 +83,11 @@
     <p>妹とたく兄は、、私の被害者です。</p>
     <p>兄:たく様</p>
     <p>妹:もり様</p>
-
-    </taku>
-    </section>
+        <div class="close-btn-container">
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+</div>
 
 </div>
 </div>
@@ -104,3 +109,4 @@
 <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-6-3/js/9-6-3.js"></script>
 </body>
 </html>
+
